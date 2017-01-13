@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
                 if(collapsingToolbarLayout.getHeight() + verticalOffset < 2 * ViewCompat.getMinimumHeight(collapsingToolbarLayout)) {
                     // collapsed
-                    text.setTextColor(ContextCompat.getColor(MainActivity.this, R.color.theme_cyan_color_dark));
+                    text.setTextColor(ContextCompat.getColor(MainActivity.this, android.R.color.black));
                 } else {
                     // extended
                     text.setTextColor(ContextCompat.getColor(MainActivity.this, android.R.color.white));
